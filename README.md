@@ -1,3 +1,9 @@
+## Upstream contribution
+
+This fork contains a contribution to [HomotopyContinuation.jl](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl) adding support for seven transcendental and hyperbolic functions to ModelKit's symbolic operation registry: `exp`, `tan`, `asin`, `acos`, `sinh`, `cosh`, and `tanh`.
+
+The new operations support symbolic evaluation, automatic differentiation, and Taylor-series propagation. The changes were contributed upstream in [PR #703](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl/pull/703) and merged into the main project on June 8, 2026.
+
 <img src="https://www.juliahomotopycontinuation.org/images/logo_transparent_bg.png" width="320px">
 
 [![][docs-stable-img]][docs-stable-url] [![Run tests](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl/actions/workflows/run_tests.yml/badge.svg)](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl/actions/workflows/run_tests.yml)
